@@ -2951,10 +2951,6 @@
 		(uuid "1783c158-9c18-4a6a-9107-b0e8e8e856cf")
 	)
 	(no_connect
-		(at 115.57 67.31)
-		(uuid "2123aa84-7ced-4333-b67a-c035943baee8")
-	)
-	(no_connect
 		(at 166.37 113.03)
 		(uuid "257bc59f-14b0-43a7-add2-fdb994766eb1")
 	)
@@ -3187,10 +3183,6 @@
 		(uuid "f57a8ae8-9e88-4deb-a3dc-d645c33fa1bc")
 	)
 	(no_connect
-		(at 166.37 120.65)
-		(uuid "fa8933ec-dc2a-4301-92b4-7a181793faf9")
-	)
-	(no_connect
 		(at 166.37 143.51)
 		(uuid "ff297c13-4ae7-4161-ae96-52476df57853")
 	)
@@ -3333,6 +3325,16 @@
 			(type default)
 		)
 		(uuid "373d9951-da78-4102-845b-8a2e364ca6bf")
+	)
+	(wire
+		(pts
+			(xy 166.37 120.65) (xy 170.18 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37882985-6411-4c87-b40c-3a3c709b16b2")
 	)
 	(wire
 		(pts
@@ -3503,6 +3505,16 @@
 			(type default)
 		)
 		(uuid "70264361-d8e7-4afb-aa8a-e316b2ce7bc1")
+	)
+	(wire
+		(pts
+			(xy 115.57 55.88) (xy 115.57 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "764ef462-4176-4b0c-b059-8fbf8f1a055e")
 	)
 	(wire
 		(pts
@@ -3713,16 +3725,6 @@
 			(type default)
 		)
 		(uuid "cb879f8b-0ec7-47b6-b735-5965e60c8791")
-	)
-	(wire
-		(pts
-			(xy 115.57 55.88) (xy 115.57 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cea507ed-cc36-432d-8faf-76f92d19a03b")
 	)
 	(wire
 		(pts
@@ -4981,6 +4983,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 175.26 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3800e254-1844-4a67-9746-06c97c1f7b2e")
+		(property "Reference" "J18"
+			(at 177.8 119.3799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 177.8 121.9199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 175.26 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 175.26 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a734ebff-ac24-416e-a5b9-127f50840b14")
+		)
+		(instances
+			(project "PCB"
+				(path "/62646517-4585-4280-ac22-5eef66db2aa3"
+					(reference "J18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x05")
 		(at 250.19 74.93 0)
 		(unit 1)
@@ -5895,6 +5976,85 @@
 			(project "PCB"
 				(path "/62646517-4585-4280-ac22-5eef66db2aa3"
 					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x01")
+		(at 115.57 74.93 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc469574-e503-4413-a637-477d7a366c21")
+		(property "Reference" "J17"
+			(at 118.11 73.6599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 118.11 76.1999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 115.57 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 115.57 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9f1a3e71-49dc-4b73-bd40-1be8d5b9dfd4")
+		)
+		(instances
+			(project "PCB"
+				(path "/62646517-4585-4280-ac22-5eef66db2aa3"
+					(reference "J17")
 					(unit 1)
 				)
 			)
