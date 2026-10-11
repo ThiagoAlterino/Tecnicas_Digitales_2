@@ -3621,10 +3621,6 @@
 		(uuid "0465c5fc-0e82-419f-88a5-87e9264ecd60")
 	)
 	(no_connect
-		(at 158.75 57.15)
-		(uuid "05727e36-d215-4be1-a828-92a4fb42da49")
-	)
-	(no_connect
 		(at 66.04 55.88)
 		(uuid "0bddca1f-5981-424f-a94a-dc20d6a08c92")
 	)
@@ -3695,10 +3691,6 @@
 	(no_connect
 		(at 153.67 123.19)
 		(uuid "4546916c-6438-4b23-a5ac-aa8878102d86")
-	)
-	(no_connect
-		(at 158.75 59.69)
-		(uuid "46558fad-7d06-4459-bfe7-1093048b5cad")
 	)
 	(no_connect
 		(at 166.37 105.41)
@@ -4066,6 +4058,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 69.85) (xy 165.1 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3826a1d2-c4c9-44a3-8900-b2d96c9a226f")
+	)
+	(wire
+		(pts
 			(xy 151.13 54.61) (xy 163.83 54.61)
 		)
 		(stroke
@@ -4123,6 +4125,16 @@
 			(type default)
 		)
 		(uuid "5390440a-a854-4aac-b70e-11344fe0da71")
+	)
+	(wire
+		(pts
+			(xy 160.02 67.31) (xy 165.1 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53958956-1b6f-4f67-a643-30da4dc07426")
 	)
 	(wire
 		(pts
@@ -4674,6 +4686,16 @@
 		)
 		(uuid "00546035-47a4-4348-9f2a-f16f59ab4b3d")
 	)
+	(label "S+"
+		(at 158.75 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "02219d00-e0fd-4911-b447-e8b67d8a7a01")
+	)
 	(label "GND"
 		(at 181.61 62.23 0)
 		(effects
@@ -4864,6 +4886,16 @@
 		)
 		(uuid "4e703e8c-4778-4f2b-b2cd-4c594b4dba4b")
 	)
+	(label "S-"
+		(at 160.02 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "505e5b9e-4168-4875-b00c-0acd4b5d3d39")
+	)
 	(label "PILA-"
 		(at 111.76 151.13 0)
 		(effects
@@ -4964,6 +4996,16 @@
 		)
 		(uuid "91d97692-8521-4045-a59d-5f773c5f65f9")
 	)
+	(label "S+"
+		(at 160.02 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "91ff233e-1400-474f-be1a-90c39b932862")
+	)
 	(label "Salida_AD620"
 		(at 191.77 87.63 0)
 		(effects
@@ -5033,6 +5075,16 @@
 			(justify left bottom)
 		)
 		(uuid "b5ceb224-1cb4-416a-93da-646ab13d9250")
+	)
+	(label "S-"
+		(at 158.75 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b8c6551a-0dd2-41cb-b31b-42d8ef88cf5a")
 	)
 	(label "Vcc"
 		(at 222.25 71.12 0)
@@ -5650,6 +5702,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 170.18 67.31 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "236e5a54-1c8f-4f45-be4d-bc5661037bb6")
+		(property "Reference" "J15"
+			(at 171.45 69.8501 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Bornera_Electrodo"
+			(at 171.45 67.3101 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+			(at 170.18 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 170.18 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5e278683-08b6-429c-bdf5-cadc896aa7f4")
+		)
+		(pin "1"
+			(uuid "67c7fd7d-2721-49e7-afea-c90889cada16")
+		)
+		(instances
+			(project "PCB"
+				(path "/62646517-4585-4280-ac22-5eef66db2aa3"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
 		(at 97.79 102.87 90)
 		(unit 1)
@@ -6073,7 +6207,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
+		(property "Value" "Bornera_Pila"
 			(at 113.03 164.4649 90)
 			(show_name no)
 			(do_not_autoplace no)
